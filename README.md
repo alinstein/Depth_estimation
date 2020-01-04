@@ -5,17 +5,22 @@ This project implements a deep learning neural network model to generate the dep
 Model is U-net model with MobileNetV2 as the encoder, and model has utilized skip connection from encoder to decoder.
 Model generates a depth image of resolution 480x640 for the same sized input image.
 
+This project has referenced following paper: 
+[High Quality Monocular Depth Estimation via Transfer Learning (arXiv 2018)](https://arxiv.org/abs/1812.11941)
+**[Ibraheem Alhashim]** and **Peter Wonka**
 
 ## Getting Started
 
-Model can be trained using the "train_mobilenetv2.ipynb".
+Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
+
+*
  
 IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
 
 IPYTHON file "test_video.ipynb" can be used to generate the depth video on pretrained model.
 For pretrained models see below.  
 
-##Data 
+## Data 
 * [NYU Depth V2 (50K)](https://s3-eu-west-1.amazonaws.com/densedepth/nyu_data.zip) (4.1 GB): File is extraced while running the "train_mobilenetv2.ipynb".
 
 ## Download a pretrained model 
@@ -23,16 +28,9 @@ For pretrained models see below.
 
 ### Results
 
-A sample ECG signal segment:
+A sample of generated depth image:
 
 ![ECG image](https://github.com/alinstein/Depth_estimation/blob/master/CombineGIF.gif)
-
-Final sparse coefficient vector representation of the above ECG signal:
-
-![Sparse coefficient](https://github.com/alinstein/Human-Identification-with-ECG--/blob/master/observation/maxpol2.jpg)
-Following table shows the results obtained:
-
-![Result image](https://github.com/alinstein/Human-Identification-with-ECG--/blob/master/Results.JPG)
 
 ## References
 
