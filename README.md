@@ -12,13 +12,19 @@ This project  was implemented with reference from the following paper:
 
 ## Getting Started
 
-Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
-
-*
+*Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
+Download the dataset and give the location of dataset.
+Change the following according to needs: batch_size, epochs, lr (learning rate).
+Load the pretrained model if needed.
  
-IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
+*IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
+Give the location for the dictionary of images to be converted. 
+Load the pretrained model
 
 IPYTHON file "test_video.ipynb" can be used to generate the depth video on pretrained model.
+Give the location for the dictionary of images to be converted. 
+Load the pretrained model
+
 For pretrained models see below.  
 
 ## Data 
@@ -33,18 +39,8 @@ A sample of generated depth image:
 
 ![ECG image](https://github.com/alinstein/Depth_estimation/blob/master/CombineGIF.gif)
 
-## References
-
-[1] J. Wang, M. She, S. Nahavandi and A. Kouzani, "Human Identification From ECG Signals Via Sparse Representation of Local Segments," in IEEE Signal Processing Letters, vol. 20, no. 10, pp. 937-940, Oct. 2013.
-doi: 10.1109/LSP.2013.2267593
-[2] W.-S. Lu, Course notes of Advanced Mathematical optimizations. 
 
 ## Authors
 
 %Written by Alinstein Jose, University of Victoria.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 
