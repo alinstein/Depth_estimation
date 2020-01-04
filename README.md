@@ -5,7 +5,10 @@ This project implements a deep learning neural network model to generate the dep
 Model is a U-net model with MobileNetV2 as the encoder, and model has utilized skip connection from encoder to decoder.
 Model generates a depth image of resolution 480x640 for input image of same size.
 
+### Results
+
 ![Results](https://github.com/alinstein/Depth_estimation/blob/master/CombineGIF.gif)
+
 
 This project  was implemented with reference from the following paper: 
 
@@ -36,13 +39,6 @@ Load the pretrained model if needed.
 
 ## Download the pretrained model 
 * [Mobilenet](https://drive.google.com/drive/folders/1rDvtiwUgYbhzk8ZPdQ176abv-u6SaZzI?usp=sharing) (55 MB). Pretrained model is trained on 6 NVIDIA GeForce GTX 1080 for 6 hours(17 epoches). 
-
-## Results
-
-A sample of generated depth image:
-
-![Results](https://github.com/alinstein/Depth_estimation/blob/master/CombineGIF.gif)
-
 
 ## Authors
 
