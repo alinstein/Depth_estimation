@@ -24,7 +24,7 @@ Nseg:                  Total number of training and testing segments for patient
 * [NYU Depth V2 (50K)](https://s3-eu-west-1.amazonaws.com/densedepth/nyu_data.zip) (4.1 GB): File is extraced in the "train_mobilenetv2.ipynb".
 
 ## Download a pretrained model 
-*[Mobilenet](https://drive.google.com/drive/folders/1McNxDWmeWKgmJqD4cP_TW5IBdQPuSDMf)(55 MB)
+*[Mobilenet](https://drive.google.com/drive/folders/1rDvtiwUgYbhzk8ZPdQ176abv-u6SaZzI?usp=sharing)(55 MB)
 ### Results
 
 A sample ECG signal segment:
