@@ -1,11 +1,12 @@
 # Depth Estimation with Transfer Learning pretrained MobileNetV2
 
 
-This project implements a deep learning neural network model to generate the depthe image of a given image.
-Model is U-net model with MobileNetV2 as the encoder, and model has utilized skip connection from encoder to decoder.
-Model generates a depth image of resolution 480x640 for the same sized input image.
+This project implements a deep learning neural network model to generate the depth image of a given image.
+Model is a U-net model with MobileNetV2 as the encoder, and model has utilized skip connection from encoder to decoder.
+Model generates a depth image of resolution 480x640 for input image of same size.
 
-This project has referenced following paper: 
+This project  was implemented with reference from the following paper: 
+
 [High Quality Monocular Depth Estimation via Transfer Learning (arXiv 2018)](https://arxiv.org/abs/1812.11941)
 **[Ibraheem Alhashim]** and **Peter Wonka**
 
