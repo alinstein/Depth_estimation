@@ -20,16 +20,13 @@ Load the pretrained model if needed.
  
 ##### IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
 
-* Give the location for the dictionary of images to be converted. 
-Load the pretrained model
+* Give the location for the dictionary of images to be converted and load the pretrained model
 
 ##### IPYTHON file "test_video.ipynb" can be used to generate the depth video on pretrained model.
 
-* Give the location for the dictionary of images to be converted. 
+* Give the location for the dictionary of images to be converted and load the pretrained model.
 
-* Load the pretrained model.
-
-#### Implementation of the Depth estimation using Densenet model is in the folder Densenet_depth_model.
+#### Implementation of the Depth estimation using Densenet model is in the folder "Densenet_depth_model".
 
 
 ## Dataset 
