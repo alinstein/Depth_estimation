@@ -12,16 +12,19 @@ This project  was implemented with reference from the following paper:
 
 ## Getting Started
 
-*Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
+* Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
+
 Download the dataset and give the location of dataset.
 Change the following according to needs: batch_size, epochs, lr (learning rate).
 Load the pretrained model if needed.
  
-*IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
+* IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
+
 Give the location for the dictionary of images to be converted. 
 Load the pretrained model
 
-IPYTHON file "test_video.ipynb" can be used to generate the depth video on pretrained model.
+* IPYTHON file "test_video.ipynb" can be used to generate the depth video on pretrained model.
+
 Give the location for the dictionary of images to be converted. 
 Load the pretrained model
 
