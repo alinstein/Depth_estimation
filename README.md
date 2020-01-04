@@ -18,7 +18,7 @@ This project  was implemented with reference from the following paper:
 * Change the following according to the needs: batch_size, epochs, lr (learning rate).
 Load the pretrained model if needed.
  
-* IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
+##### IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
 
 * Give the location for the dictionary of images to be converted. 
 Load the pretrained model
