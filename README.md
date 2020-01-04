@@ -10,26 +10,22 @@ Model generates a depth image of resolution 480x640 for the same sized input ima
 
 Model can be trained using the "train_mobilenetv2.ipynb".
  
-In the file "Final Code.mat", you can find code for optimization using all the method such as ADMM, Proximal Point Algrithm and CVX.
+IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
 
-
-Enter the values for the following varible before running the main program, default values are given in program:
-
-Nopatient:             Number of patients
-
-Nseg:                  Total number of training and testing segments for patients
-
+IPYTHON file "test_video.ipynb" can be used to generate the depth video on pretrained model.
+For pretrained models see below.  
 
 ##Data 
-* [NYU Depth V2 (50K)](https://s3-eu-west-1.amazonaws.com/densedepth/nyu_data.zip) (4.1 GB): File is extraced in the "train_mobilenetv2.ipynb".
+* [NYU Depth V2 (50K)](https://s3-eu-west-1.amazonaws.com/densedepth/nyu_data.zip) (4.1 GB): File is extraced while running the "train_mobilenetv2.ipynb".
 
 ## Download a pretrained model 
-*[Mobilenet](https://drive.google.com/drive/folders/1rDvtiwUgYbhzk8ZPdQ176abv-u6SaZzI?usp=sharing)(55 MB)
+* [Mobilenet](https://drive.google.com/drive/folders/1rDvtiwUgYbhzk8ZPdQ176abv-u6SaZzI?usp=sharing) (55 MB). Pretrained model is trained on 6 NVIDIA GeForce GTX 1080 for 6 hours(17 epoches). 
+
 ### Results
 
 A sample ECG signal segment:
 
-![ECG image](https://github.com/alinstein/Human-Identification-with-ECG--/blob/master/observation/ecg.jpg)
+![ECG image](https://github.com/alinstein/Depth_estimation/blob/master/CombineGIF.gif)
 
 Final sparse coefficient vector representation of the above ECG signal:
 
