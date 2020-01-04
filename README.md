@@ -12,10 +12,10 @@ This project  was implemented with reference from the following paper:
 
 ## Getting Started
 
-* Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
+#### Model can be trained using the IPYTHON file "train_mobilenetv2.ipynb".
 
 * Download the dataset and give the location of dataset.
-* Change the following according to needs: batch_size, epochs, lr (learning rate).
+* Change the following according to the needs: batch_size, epochs, lr (learning rate).
 Load the pretrained model if needed.
  
 * IPYTHON file "test_img.ipynb" can be used to generate the depth image on pretrained model.
@@ -33,7 +33,7 @@ For pretrained models see below.
 * Implementation of the Depth estimation using Densenet model is in the folder Densenet_depth_model.
 
 
-## Data 
+## Dataset 
 * [NYU Depth V2 (50K)](https://s3-eu-west-1.amazonaws.com/densedepth/nyu_data.zip) (4.1 GB): File is extraced while running the "train_mobilenetv2.ipynb".
 
 ## Download the pretrained model 
