@@ -1,4 +1,4 @@
-# Depth Estimation with Transfer Learning pretrained MobileNetV2
+# Monocular Depth Estimation with Transfer Learning pretrained MobileNetV2
 
 
 This project implements a deep learning neural network model to generate the depth image of a given image.
