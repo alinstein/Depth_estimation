@@ -1,17 +1,27 @@
-# Monocular Depth Estimation with Transfer Learning pretrained MobileNetV2
+# Monocular Depth Estimation with Transfer Learning (MobileNetV2)
 
 
 This project implements a deep learning neural network model to generate the depth image of a given image.
 Model is a U-net model with MobileNetV2 as the encoder, and model has utilized skip connection from encoder to decoder.
 Model generates a depth image of resolution 480x640 for input image of same size.
 
-![Results](https://github.com/alinstein/Depth_estimation/blob/master/CombineGIF.gif)
+![Results](assets/CombineGIF.gif)
 
 
 This project was implemented taking reference from the following paper: 
 
 [High Quality Monocular Depth Estimation via Transfer Learning (arXiv 2018)](https://arxiv.org/abs/1812.11941)
 **[Ibraheem Alhashim]** and **Peter Wonka**
+
+## Repository Structure
+
+| Path | Description |
+|------|-------------|
+| `Mobile_model.py`, `DepthData_mob.py`, `UtilityTest.py` | MobileNetV2 U-Net model, data loading and utilities |
+| `train_mobilenetv2.ipynb` | Training notebook |
+| `test_img.ipynb`, `test_video.ipynb` | Inference on images and video |
+| `Densenet_depth_model/` | DenseNet-based implementation |
+| `assets/` | Demo GIFs and example outputs |
 
 ## Getting Started
 
